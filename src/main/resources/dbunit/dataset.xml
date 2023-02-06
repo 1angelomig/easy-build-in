@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+<dataset>
+    <TB_USUARIO DISC_USUARIO="P" TXT_NOME="Miguel" TXT_CPF="12312312312" 
+                DT_NASCIMENTO="2001-05-03" TXT_EMAIL="miguel@gmail.com" TXT_SENHA="123"/>
+    <TB_CONTATOS ID_USUARIO="1" TXT_NUM_CONTATO="81911223344" />
+    
+    <TB_USUARIO DISC_USUARIO="P" TXT_NOME="Ayrton" TXT_CPF="78978979878" 
+                DT_NASCIMENTO="2001-02-12" TXT_EMAIL="ayrton@gmail.com" TXT_SENHA="123"/>
+    <TB_CONTATOS ID_USUARIO="2" TXT_NUM_CONTATO="81977889944" />
+    
+    <TB_USUARIO DISC_USUARIO="C" TXT_NOME="Arthur" TXT_CPF="45645645645" 
+                DT_NASCIMENTO="2000-11-07" TXT_EMAIL="arthur@gmail.com" TXT_SENHA="123"/>
+    <TB_CONTATOS ID_USUARIO="3" TXT_NUM_CONTATO="81911559988" />
+    
+    <TB_USUARIO DISC_USUARIO="C" TXT_NOME="Matheus" TXT_CPF="15915915915" 
+                DT_NASCIMENTO="1997-07-23" TXT_EMAIL="matheus@gmail.com" TXT_SENHA="123"/>
+    <TB_CONTATOS ID_USUARIO="4" TXT_NUM_CONTATO="81933557788" />
+    
+    <TB_PEDREIRO ID_USUARIO="1" INT_ANOS_EXPERIENCIA="4"/>
+    <TB_PEDREIRO ID_USUARIO="2" INT_ANOS_EXPERIENCIA="5"/>
+    
+    <TB_CLIENTE ID_USUARIO="3"/>
+    <TB_CLIENTE ID_USUARIO="4"/>
+    
+    <TB_FERRAMENTA ID_DONO="1" TXT_NOME="Martelo" TXT_FUNCAO="Martelar"/>
+    <TB_FERRAMENTA ID_DONO="1" TXT_NOME="Parafusadeira" TXT_FUNCAO="Parafusar"/>
+    
+    <TB_FERRAMENTA ID_DONO="2" TXT_NOME="Maquita" TXT_FUNCAO="Serrar"/>
+    <TB_FERRAMENTA ID_DONO="2" TXT_NOME="Fita Métrica" TXT_FUNCAO="Medir"/>
+    
+    <TB_OBRA ID_PEDREIRO="1" ID_CLIENTE="3" DT_INICIO="2023-02-06" DT_FIM="2023-05-21" FLOAT_VALOR="60000" 
+             TXT_DESCRICAO="Construir Laje" TXT_ENDERECO="Rua 15, Número 142, Maranguape 2, Paulista - PE" 
+             BOL_ESTADO_OBRA_TERMINADA="false" TXT_DESCRICAO_ESTADO_OBRA="Início da Obra"/>
+    
+    <TB_OBRA ID_PEDREIRO="2" ID_CLIENTE="4" DT_INICIO="2023-02-06" DT_FIM="2023-02-20" FLOAT_VALOR="10000" 
+             TXT_DESCRICAO="Colocar cerâmica na casa" TXT_ENDERECO="Rua 37, Número 398, Maranguape 2, Paulista - PE" 
+             BOL_ESTADO_OBRA_TERMINADA="false" TXT_DESCRICAO_ESTADO_OBRA="Início da Obra"/>
+    
+    <TB_NOTA_FISCAL ID_PRESTADOR_SERVICO="1" ID_TOMADOR_SERVICO="3" 
+                    ID_SERVICO_REALIZADO="1" DT_EMISSAO="2023-02-06" FLOAT_VALOR="60000"/>
+    
+    <TB_NOTA_FISCAL ID_PRESTADOR_SERVICO="2" ID_TOMADOR_SERVICO="4" 
+                    ID_SERVICO_REALIZADO="2" DT_EMISSAO="2023-02-07" FLOAT_VALOR="10000"/>
+</dataset>
+
